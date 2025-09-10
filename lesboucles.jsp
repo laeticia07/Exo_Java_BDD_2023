@@ -32,7 +32,7 @@
 <p>
     <% for (int ligne = 1; ligne <= cpt; ligne++) { %>
         <% for (int i = 1; i <= cpt; i++) { %>
-            * 
+             <%= "*" %>
         <% } %>
         <br/>
     <% } %>
