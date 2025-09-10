@@ -60,9 +60,8 @@
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
 <p>
     <% for (int ligne = cpt; ligne >= 1; ligne--) { %>
-        <% for (int i = 1; i <= ligne; i++) { %>
-            <%= "*" %>
-        <% } %>
+        <% for (int sp = 1; sp <= (cpt - ligne); sp++) { %>&nbsp;<% } %>
+        <% for (int i = 1; i <= ligne; i++) { %>*<% } %>
         <br/>
     <% } %>
 </p>
