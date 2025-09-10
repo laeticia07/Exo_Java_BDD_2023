@@ -47,7 +47,7 @@
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la gauche</p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
 <p>
-<% if (cpt > 0) { %>
+
     <% for (int ligne = 1; ligne <= cpt; ligne++) { %>
         <% for (int i = 1; i <= ligne; i++) { %>
             * 
